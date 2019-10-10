@@ -1,0 +1,136 @@
+/* color palette
+#91B3BC dew
+#5B7D87 rain
+#45415E currant
+#2B4251 slate
+#2E323C creosote*/
+/* global style*/
+body{font-family: 'Playfair Display', serif;
+    margin: 20px auto;
+} 
+p, h2, h3 {
+    text-align: center;
+}
+
+h1,h2 {
+    font-family: 'Playfair Display', serif;
+}
+h1 {
+  text-shadow: 2px 2px 4px #000000;
+}
+h1 {font-size: 80px;
+}
+h2 {
+  text-shadow: 2px 2px 4px #ffffff;
+}
+h2 {font-size: 40px;
+    margin-top: 0;
+}
+
+a {color: #45415E;
+}
+a:hover {text-decoration: none
+}
+.content wrap { 
+    max-width: 950px;
+    margin: auto;
+    padding: 50px;
+}
+/* header and footer style*/
+header, footer {background: #91B3BC;
+}
+/*header*/
+.profile-img {
+    width: 300px;
+}
+header h1, header h2 {color: #91B3BC;
+    margin: 0;
+}
+header {text-align: center;
+}
+/* footer*/
+footer {text-align: center;
+}
+.contact info a {padding: 40px;
+    display: inline-block;
+}
+/* 3 columns*/
+.work {background: #A9DDD9
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* education style*/
+.education {background: #5B7D87;
+}.margin {
+}
+ul { 
+text-align: left;list-style: none;
+}
+/*Nav bar*/
+body {
+    background: #45415E; 
+}
+ul{ width: 100%;
+	list-style: none;
+	align-content: center;
+}
+ul, li{
+	font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    text-align:center;
+	display: inline-block;
+	position: relative;
+	padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+	margin-left: 5px; 
+    margin-right: 15px;
+	background-color:#5B7D87;
+	color: #45415E;
+	cursor: pointer;	
+}
+ul li:hover{
+	background: #A9DDD9;
+}
+ul li ul{
+	padding: 30px;
+	position: absolute;
+	top: 50px;
+	left:-10000px;
+	max-width: 150px;
+}
+ul li ul li{
+	display: block;
+	color: #FFFDF7;
+    align-items: center;
+}
+ul li ul li:hover{
+	background: EEBA4C;
+}
+ul li:hover ul{
+	display: block;
+	left: 5px;
+}
+/* media queries*/
+@media (max-width: 899px) { header{
+    text-align: center;
+}
+.profile-img{
+    width:200px;
+}
+}
